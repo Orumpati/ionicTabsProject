@@ -1,0 +1,96 @@
+ion-content{
+    --ion-background-color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.background-pic{
+    height: 100vh;
+    width: 100%;
+    background: url('https://th.bing.com/th/id/OIP.Q77chlBILKBhNjMgFBClygHaDn?pid=ImgDet&rs=1');
+    background-position: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-filter{
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.703);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+ion-card{
+    margin-top: 130px;
+    background: transparent;
+    box-shadow: none;
+    text-align: center;
+}
+ion-card-title{
+    color:#0a0101;
+    font-size: 30px;
+}
+ion-card-subtitle{
+    color:#393636;
+    font-size: 14px;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #049630;
+    font-size: 15;
+    font-weight: 500;
+}
+ion-card-content{
+    margin-top: 30px;
+}
+ion-item{
+   padding: 10px;
+   --ion-item-background:transparent;
+   --border-width:0;
+   --highlight-color-focused:none;
+   --inner-border-width:0;
+}
+    ion-input{
+        width:257px;
+        height: 42px;
+        border-radius: 15px;
+        border:  1px solid #198645;
+        font-size: 14px;
+        font-weight: 600;
+        color:#212323;
+
+        text-align: left;
+    }
+    .forgetp{
+        text-decoration: none;
+        color:#589B3F;
+        font-weight: 300;
+        font-size: 13px;
+        
+    }
+    .bottom-section{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        ion-button{
+        height: 53px;
+        width: 247px;
+        font-size: 14px;
+        text-transform: none;
+        --background:#198645;
+          font-weight: 400;
+        --border-radius: 15px !important;
+          color:#fff;
+        }
+        span{
+            margin-top: 10px;
+            font-weight: 330;
+            color: rgb(50, 49, 49);
+            a{
+                font-weight: 400;
+            }  
+        }
